@@ -9,9 +9,9 @@ const TheEvent: React.FC = () => {
     return (
         <main className="page-container" style={{ position: 'relative' }}>
             <img
-                src="/event_bg_manager.png"
-                alt="Colonial estate manager portrait"
-                className="event-bg-manager"
+                src="/event_bg_workers.png"
+                alt="Group of striking sugarcane workers in active protest"
+                className="event-bg-workers"
             />
             <div className="container" style={{ position: 'relative', zIndex: 1 }}>
                 <header className="page-header">

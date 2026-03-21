@@ -6,19 +6,19 @@ const WomenOfUprising: React.FC = () => {
     }, []);
 
     return (
-        <main className="page-container">
-            <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
+        <main className="page-container" style={{ position: 'relative' }}>
+            <img
+                src="/sugarcane_female_worker.png"
+                alt="Female sugarcane worker portrait"
+                className="women-bg-worker"
+            />
+            <div className="container" style={{ maxWidth: '800px', margin: '0 auto', position: 'relative', zIndex: 1 }}>
                 <header className="page-header" style={{ marginBottom: 'var(--spacing-xxl)' }}>
                     <h1 className="reveal">The Women of the Uprising</h1>
                     <h2 className="reveal delay-1">The Unsung Vanguard of 1935</h2>
                 </header>
 
                 <section className="story-content text-content reveal delay-2">
-                    <img
-                        src="/uprising_women.png"
-                        alt="Historical recreation of women protesting during the uprising"
-                        style={{ width: '100%', marginBottom: 'var(--spacing-xl)', filter: 'grayscale(100%) contrast(1.1)', border: '1px solid var(--color-mid-gray)' }}
-                    />
 
                     <p className="lead" style={{ marginBottom: 'var(--spacing-lg)' }}>
                         When historical accounts of the 1935 Buckley's Uprising are told, the focus often falls heavily on the men who were arrested, wounded, or killed. However, the true backbone of the resistance was heavily fortified by the women of St. Kitts.

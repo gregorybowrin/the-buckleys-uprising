@@ -7,8 +7,13 @@ const TheEvent: React.FC = () => {
     }, []);
 
     return (
-        <main className="page-container">
-            <div className="container">
+        <main className="page-container" style={{ position: 'relative' }}>
+            <img
+                src="/event_bg_manager.png"
+                alt="Colonial estate manager portrait"
+                className="event-bg-manager"
+            />
+            <div className="container" style={{ position: 'relative', zIndex: 1 }}>
                 <header className="page-header">
                     <h1 className="reveal delay-1">The Breaking Point</h1>
                     <h2 className="reveal delay-2">January 28, 1935 – Buckley’s Estate</h2>

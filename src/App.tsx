@@ -9,11 +9,14 @@ import Timeline from './pages/Timeline';
 import Memorial from './pages/Memorial';
 import WomenOfUprising from './pages/Women';
 import Trials from './pages/Trials';
+import StrikeMap from './pages/Map';
+import AudioPlayer from './components/AudioPlayer';
 
 function App() {
   return (
     <Router>
       <div className="app">
+        <AudioPlayer />
         {/* Fixed St. Kitts Flag Overlay */}
         <img
           src="/stkitts-nevis-flag.png"
@@ -25,6 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/the-event" element={<TheEvent />} />
           <Route path="/women" element={<WomenOfUprising />} />
+          <Route path="/map" element={<StrikeMap />} />
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/trials" element={<Trials />} />
           <Route path="/legacy" element={<TheLegacy />} />

@@ -36,7 +36,7 @@ const Header: React.FC = () => {
 
     return (
         <header className={`header ${scrolled ? 'header-scrolled' : ''}`}>
-            <div className="container header-inner" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div className="container header-inner">
                 <Link to="/" className="logo">
                     <strong>The Buckley's Uprising</strong>
                     <span className="logo-year">1935</span>
@@ -56,6 +56,7 @@ const Header: React.FC = () => {
                     <Link to="/" className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}>Home</Link>
                     <Link to="/the-event" className={`nav-link ${location.pathname === '/the-event' ? 'active' : ''}`}>The Event</Link>
                     <Link to="/women" className={`nav-link ${location.pathname === '/women' ? 'active' : ''}`}>The Women</Link>
+                    <Link to="/map" className={`nav-link ${location.pathname === '/map' ? 'active' : ''}`}>The Map</Link>
                     <Link to="/timeline" className={`nav-link ${location.pathname === '/timeline' ? 'active' : ''}`}>Timeline</Link>
                     <Link to="/trials" className={`nav-link ${location.pathname === '/trials' ? 'active' : ''}`}>The Trials</Link>
                     <Link to="/legacy" className={`nav-link ${location.pathname === '/legacy' ? 'active' : ''}`}>Legacy</Link>

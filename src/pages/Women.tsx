@@ -12,7 +12,7 @@ const WomenOfUprising: React.FC = () => {
                 alt="Female sugarcane worker portrait"
                 className="women-bg-worker"
             />
-            <div className="container" style={{ maxWidth: '800px', margin: '0 auto', position: 'relative', zIndex: 1 }}>
+            <div className="container" style={{ position: 'relative', zIndex: 1 }}>
                 <header className="page-header" style={{ marginBottom: 'var(--spacing-xxl)' }}>
                     <h1 className="reveal">The Women of the Uprising</h1>
                     <h2 className="reveal delay-1">The Unsung Vanguard of 1935</h2>

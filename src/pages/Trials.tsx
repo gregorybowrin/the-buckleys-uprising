@@ -7,7 +7,7 @@ const Trials: React.FC = () => {
 
     return (
         <main className="page-container">
-            <div className="container" style={{ maxWidth: '800px', margin: '0 auto' }}>
+            <div className="container">
                 <header className="page-header" style={{ marginBottom: 'var(--spacing-xxl)' }}>
                     <h1 className="reveal">The Arrests & The Trials</h1>
                     <h2 className="reveal delay-1">From Riot to Legal Revolution</h2>

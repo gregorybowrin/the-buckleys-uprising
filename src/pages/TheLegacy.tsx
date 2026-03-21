@@ -7,8 +7,13 @@ const TheLegacy: React.FC = () => {
     }, []);
 
     return (
-        <main className="page-container">
-            <div className="container">
+        <main className="page-container" style={{ position: 'relative' }}>
+            <img
+                src="/sugarcane_worker.png"
+                alt="Sugarcane worker portrait"
+                className="legacy-bg-worker"
+            />
+            <div className="container" style={{ position: 'relative', zIndex: 1 }}>
                 <header className="page-header">
                     <h1 className="reveal delay-1">The Ripple Effect</h1>
                     <h2 className="reveal delay-2">A Legacy That Changed the Caribbean</h2>

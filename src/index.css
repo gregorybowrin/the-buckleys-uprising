@@ -817,4 +817,13 @@ a:hover {
     font-size: 1.8rem;
     font-family: var(--font-serif);
   }
+
+  .fixed-flag-overlay {
+    min-width: 100px;
+    width: 35vw;
+    top: -5vw;
+    left: -5vw;
+    opacity: 0.15;
+    z-index: 0;
+  }
 }

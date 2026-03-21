@@ -801,7 +801,7 @@ a:hover {
 }
 
 /* --- Event Page Specifics --- */
-.event-bg-manager {
+.event-bg-workers {
   position: fixed;
   right: 0;
   top: 5vh;
@@ -818,7 +818,7 @@ a:hover {
 }
 
 @media (max-width: 950px) {
-  .event-bg-manager {
+  .event-bg-workers {
     opacity: 0.05;
     width: 100vw;
   }

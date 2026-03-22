@@ -15,6 +15,7 @@ const Footer: React.FC = () => {
                 <div className="footer-links">
                     <Link to="/the-event">The Event</Link>
                     <Link to="/legacy">Legacy</Link>
+                    <Link to="/sources">Sources</Link>
                 </div>
             </div>
             <div className="footer-bottom container">

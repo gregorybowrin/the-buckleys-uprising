@@ -10,6 +10,7 @@ import Memorial from './pages/Memorial';
 import WomenOfUprising from './pages/Women';
 import Trials from './pages/Trials';
 import StrikeMap from './pages/Map';
+import Sources from './pages/Sources';
 import AudioPlayer from './components/AudioPlayer';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/trials" element={<Trials />} />
           <Route path="/legacy" element={<TheLegacy />} />
           <Route path="/memorial" element={<Memorial />} />
+          <Route path="/sources" element={<Sources />} />
         </Routes>
         <Footer />
       </div>

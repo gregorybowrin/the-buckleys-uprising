@@ -12,22 +12,22 @@ const locations: Location[] = [
     {
         id: 'buckleys',
         name: "Buckley's Estate",
-        x: 40,
-        y: 60,
+        x: 50,
+        y: 57,
         description: "The epicenter of the 1935 uprising. Here, Manager E.D.B. Dobridge refused the workers' demand for a one-shilling rate, sparking the island-wide strike that culminated in military intervention and the deaths of three martyrs."
     },
     {
         id: 'shadwell',
         name: 'Shadwell Estate',
-        x: 42,
-        y: 55,
+        x: 54,
+        y: 53,
         description: "After being rejected at Buckley's, strikers marched to Shadwell Estate to persuade the workers there to lay down their tools and join the growing movement for fair wages."
     },
     {
         id: 'brighton',
         name: 'Brighton Estate',
-        x: 60,
-        y: 70,
+        x: 63,
+        y: 38,
         description: "As the strike spread eastward, workers at Brighton were among the many coerced into joining the stoppage, effectively outperforming the colonial administration and halting the entire island's sugar production."
     }
 ];

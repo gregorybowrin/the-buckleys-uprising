@@ -8,6 +8,11 @@ const TheCatalyst: React.FC = () => {
 
     return (
         <main className="page-container" style={{ position: 'relative' }}>
+            <img
+                src="/caribbean-archipelago.png"
+                alt="Vintage 1930s style map of the Caribbean archipelago"
+                className="catalyst-bg-map"
+            />
             <div className="container" style={{ position: 'relative', zIndex: 1 }}>
                 <header className="page-header" style={{ marginBottom: 'var(--spacing-xxl)' }}>
                     <h1 className="reveal">The Catalyst</h1>

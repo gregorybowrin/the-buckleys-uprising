@@ -59,6 +59,7 @@ const Header: React.FC = () => {
                     <Link to="/map" className={`nav-link ${location.pathname === '/map' ? 'active' : ''}`}>The Map</Link>
                     <Link to="/timeline" className={`nav-link ${location.pathname === '/timeline' ? 'active' : ''}`}>Timeline</Link>
                     <Link to="/trials" className={`nav-link ${location.pathname === '/trials' ? 'active' : ''}`}>The Trials</Link>
+                    <Link to="/catalyst" className={`nav-link ${location.pathname === '/catalyst' ? 'active' : ''}`}>The Catalyst</Link>
                     <Link to="/legacy" className={`nav-link ${location.pathname === '/legacy' ? 'active' : ''}`}>Legacy</Link>
                     <Link to="/memorial" className={`nav-link ${location.pathname === '/memorial' ? 'active' : ''}`}>Memorial</Link>
                     <Link to="/sources" className={`nav-link ${location.pathname === '/sources' ? 'active' : ''}`}>Sources</Link>

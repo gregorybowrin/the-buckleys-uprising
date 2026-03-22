@@ -20,8 +20,8 @@ const StorySection: React.FC = () => {
                     </div>
                 </div>
                 <img
-                    src="/riots.png"
-                    alt="Historical recreation of the 1935 sugar cane workers strike"
+                    src="/worker_looking_left.png"
+                    alt="Historical illustration of a 1935 sugarcane worker looking over his shoulder"
                     className="story-image"
                 />
             </div>

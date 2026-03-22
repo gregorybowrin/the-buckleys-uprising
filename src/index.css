@@ -827,6 +827,33 @@ a:hover {
   }
 }
 
+/* --- Story Background Specifics --- */
+.story-bg-worker {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  object-position: center left;
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: 0;
+  mask-image: linear-gradient(to right, transparent, black 60%);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 60%);
+  filter: grayscale(100%) contrast(1.3);
+  animation: subtle-breathe 22s ease-in-out infinite alternate;
+  transform-origin: center right;
+  will-change: transform;
+}
+
+@media (max-width: 950px) {
+  .story-bg-worker {
+    opacity: 0.1;
+    width: 100%;
+  }
+}
+
 /* --- Women Specifics --- */
 .women-bg-worker {
   position: fixed;

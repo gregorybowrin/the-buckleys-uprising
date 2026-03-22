@@ -1307,6 +1307,15 @@ a:hover {
   margin: var(--spacing-md) 0;
 }
 
+.collage-separator::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 0%, var(--color-black) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
 .collage-track {
   display: flex;
   height: 100%;

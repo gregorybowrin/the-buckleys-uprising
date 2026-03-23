@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import BackToTop from './components/layout/BackToTop';
 import Home from './pages/Home';
 import TheEvent from './pages/TheEvent';
 import TheLegacy from './pages/TheLegacy';
@@ -39,6 +40,7 @@ function App() {
           <Route path="/sources" element={<Sources />} />
         </Routes>
         <Footer />
+        <BackToTop />
       </div>
     </Router>
   );

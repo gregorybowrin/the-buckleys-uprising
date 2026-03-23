@@ -1280,7 +1280,7 @@ a:hover {
   bottom: 20px;
   right: 20px;
   z-index: 2000;
-  background: rgba(139, 0, 0, 0.75); /* Historic dark red when off */
+  background: rgba(139, 0, 0, 0.45); /* Historic dark red when off */
   border: 1px solid rgba(255, 50, 50, 0.3);
   backdrop-filter: blur(5px);
   border-radius: 30px;
@@ -1300,7 +1300,7 @@ a:hover {
 }
 
 .audio-toggle:hover {
-  background: rgba(160, 0, 0, 0.9);
+  background: rgba(160, 0, 0, 0.6);
   border-color: rgba(255, 50, 50, 0.5);
 }
 
@@ -1335,12 +1335,12 @@ a:hover {
 }
 
 .audio-toggle.playing {
-  background: rgba(34, 139, 34, 0.75); /* Historic dark green when playing */
+  background: rgba(34, 139, 34, 0.45); /* Historic dark green when playing */
   border-color: rgba(50, 200, 50, 0.3);
 }
 
 .audio-toggle.playing:hover {
-  background: rgba(44, 159, 44, 0.9);
+  background: rgba(44, 159, 44, 0.6);
   border-color: rgba(60, 220, 60, 0.5);
 }
 

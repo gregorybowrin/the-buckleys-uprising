@@ -14,9 +14,10 @@ const Header: React.FC = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    // Close menu when route changes
+    // Close menu and restore scrolling when route changes
     useEffect(() => {
         setIsMenuOpen(false);
+        document.body.style.overflow = 'unset';
     }, [location]);
 
     const toggleMenu = () => {

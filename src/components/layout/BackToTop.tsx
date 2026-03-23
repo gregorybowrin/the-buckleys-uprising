@@ -33,7 +33,7 @@ const BackToTop: React.FC = () => {
             title="Back to top"
             style={{
                 position: 'fixed',
-                bottom: '2rem',
+                bottom: '6rem',
                 right: '2rem',
                 zIndex: 2000,
                 width: '3.5rem',

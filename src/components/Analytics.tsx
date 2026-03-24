@@ -1,14 +1,16 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import ReactGA from 'react-ga4';
 
 export default function Analytics() {
   const location = useLocation();
 
   useEffect(() => {
-    const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-9CC98M6PQH';
-    if (measurementId) {
-      ReactGA.send({ hitType: 'pageview', page: location.pathname + location.search });
+    // Analytics is now handled natively in index.html, but if we need custom route events, we can trigger window.gtag here.
+    if (typeof window !== 'undefined' && 'gtag' in window) {
+      // @ts-ignore
+      window.gtag('config', 'G-9CC98M6PQH', {
+        page_path: location.pathname + location.search,
+      });
     }
   }, [location]);
 

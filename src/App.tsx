@@ -14,10 +14,12 @@ import StrikeMap from './pages/Map';
 import Sources from './pages/Sources';
 import TheCatalyst from './pages/TheCatalyst';
 import AudioPlayer from './components/AudioPlayer';
+import Analytics from './components/Analytics';
 
 function App() {
   return (
     <Router>
+      <Analytics />
       <div className="app">
         <AudioPlayer />
         {/* Fixed St. Kitts Flag Overlay */}

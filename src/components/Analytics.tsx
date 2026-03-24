@@ -6,7 +6,8 @@ export default function Analytics() {
   const location = useLocation();
 
   useEffect(() => {
-    if (import.meta.env.VITE_GA_MEASUREMENT_ID) {
+    const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-9CC98M6PQH';
+    if (measurementId) {
       ReactGA.send({ hitType: 'pageview', page: location.pathname + location.search });
     }
   }, [location]);

@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import ReactGA from 'react-ga4'
 
-const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
+const measurementId = import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-9CC98M6PQH';
 if (measurementId) {
   ReactGA.initialize(measurementId);
 } else {
